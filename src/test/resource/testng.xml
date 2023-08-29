@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automationstestingproject2023">
+	<listeners>
+		<listener class-name="RakeshListeners.MyListeners">
+			
+		</listener>
+	</listeners>
+  <test  name="RakeshProject2023">
+    <classes>
+		<class name="TestCase.Register"/>
+        <class name="TestCase.Login"/>
+      <class name="TestCase.Search"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
